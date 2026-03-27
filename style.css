@@ -20,7 +20,7 @@ html,body{
     padding: 20px 30px;
 }
 
-.child1{
+.child{
     height: 300px;
     width: 250px;
     background-color:rgb(120, 197, 212);
@@ -33,76 +33,15 @@ html,body{
     gap: 20px;
     box-shadow: 10px 20px 10px 5px rgba(0,0,0,0.2);
 }
- .child2{
-    height: 300px;
-    width: 250px;
-    background-color:rgb(120, 197, 212);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
- .child3{
-    height: 300px;
-    width: 250px;
-    background-color:rgb(120, 197, 212);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
-
- .child4{
-    height: 300px;
-    width: 250px;
-    background-color:rgb(120, 197, 212);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
- .child5{
-    height: 300px;
-    width: 250px;
-    background-color:rgb(120, 197, 212);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
-.child6{
-    height: 300px;
-    width: 250px;
-    background-color:rgb(120, 197, 212);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow: 10px 20px 10px 5px rgba(0,0,0,0.2);
-}
-.child1 img{
+  
+.child img{
     height: 100px;
     width: 100px;
     object-fit:cover;
     border-radius:49%;
     padding: 20px 20px;
 }
-.child1 button{
+.child button{
     text-align: center;
     color: rgb(103, 70, 70);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -112,200 +51,23 @@ html,body{
     padding: 10px 20px;
     border-radius: 50px;
 }
-.child1 h2{
+.child h2{
     color: rgb(255, 255, 255);
    font-size: 30px;
    font-weight: 400;
     border-radius: 10px;
     transition: all 0.5s ease-in-out;
 }
-.child1 h2:hover{
+.child h2:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(103, 70, 70);
     font-size: 35px;
     font-weight: 400;
     border-radius: 10px;
 }
-.child1 button:hover{
+.child button:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(172, 122, 122);
  
 }
-.child2 img{
-    height: 100px;
-    width: 100px;
-    object-fit:cover;
-    border-radius:49%;
-    padding: 20px 20px;
-}
-.child2 button{
-    text-align: center;
-    color: rgb(103, 70, 70);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    background-color:rgb(126, 126, 198);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.child2 h2{
-    color: rgb(255, 255, 255);
-   font-size: 30px;
-   font-weight: 400;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
-}
-.child2 h2:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 70, 70);
-    font-size: 35px;
-    font-weight: 400;
-    border-radius: 10px;
-}
-.child2 button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(172, 122, 122);
  
-}
-.child3 img{
-    height: 100px;
-    width: 100px;
-    object-fit:cover;
-    border-radius:49%;
-    padding: 20px 20px;
-}
-.child3 button{
-    text-align: center;
-    color: rgb(103, 70, 70);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    background-color:rgb(126, 126, 198);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.child3 h2{
-    color: rgb(255, 255, 255);
-   font-size: 30px;
-   font-weight: 400;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
-}
-.child3 h2:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 70, 70);
-    font-size: 35px;
-    font-weight: 400;
-    border-radius: 10px;
-}
-.child3 button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(172, 122, 122);
- 
-}.child4 img{
-    height: 100px;
-    width: 100px;
-    object-fit:cover;
-    border-radius:49%;
-    padding: 20px 20px;
-}
-.child4 button{
-    text-align: center;
-    color: rgb(103, 70, 70);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    background-color:rgb(126, 126, 198);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.child4 h2{
-    color: rgb(255, 255, 255);
-   font-size: 30px;
-   font-weight: 400;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
-}
-.child4 h2:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 70, 70);
-    font-size: 35px;
-    font-weight: 400;
-    border-radius: 10px;
-}
-.child4 button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(172, 122, 122);
- 
-}.child5 img{
-    height: 100px;
-    width: 100px;
-    object-fit:cover;
-    border-radius:49%;
-    padding: 20px 20px;
-}
-.child5 button{
-    text-align: center;
-    color: rgb(103, 70, 70);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    background-color:rgb(126, 126, 198);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.child5 h2{
-    color: rgb(255, 255, 255);
-   font-size: 30px;
-   font-weight: 400;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
-}
-.child5 h2:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 70, 70);
-    font-size: 35px;
-    font-weight: 400;
-    border-radius: 10px;
-}
-.child5 button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(172, 122, 122);
- 
-}
-.child6 img{
-    height: 100px;
-    width: 100px;
-    object-fit:cover;
-    border-radius:49%;
-    padding: 20px 20px;
-}
-.child6 button{
-    text-align: center;
-    color: rgb(103, 70, 70);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    background-color:rgb(126, 126, 198);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.child6 h2{
-    color: rgb(255, 255, 255);
-   font-size: 30px;
-   font-weight: 400;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
-}
-.child6 h2:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 70, 70);
-    font-size: 35px;
-    font-weight: 400;
-    border-radius: 10px;
-}
-.child6 button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(172, 122, 122);
- 
-}
